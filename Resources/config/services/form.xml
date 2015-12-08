@@ -28,16 +28,16 @@
             <tag name="form.type" alias="bs_static" />
         </service>
         <service id="braincrafted_bootstrap.form.extension.typesetter_extension" class="%braincrafted_bootstrap.form.extension.typesetter_extension.class%">
-            <tag name="form.type_extension" alias="Symfony\Component\Form\Extension\Core\Type\FormType" />
+            <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" />
         </service>
         <service id="braincrafted_bootstrap.form.extension.form_action_button" class="%braincrafted_bootstrap.form.extension.button_extension.class%">
-            <tag name="form.type_extension" alias="Symfony\Component\Form\Extension\Core\Type\ButtonType" />
+            <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\ButtonType" />
         </service>
         <service id="braincrafted_bootstrap.form.extension.static_control" class="%braincrafted_bootstrap.form.extension.static_control.class%">
-            <tag name="form.type_extension" alias="Symfony\Component\Form\Extension\Core\Type\FormType" />
+            <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" />
         </service>
         <service id="braincrafted_bootstrap.form.extension.input_group_button" class="%braincrafted_bootstrap.form.extension.input_group_button.class%">
-            <tag name="form.type_extension" alias="Symfony\Component\Form\Extension\Core\Type\TextType" />
+            <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\TextType" />
         </service>
     </services>
 </container>
