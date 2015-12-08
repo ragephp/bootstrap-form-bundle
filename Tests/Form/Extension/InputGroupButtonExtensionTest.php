@@ -125,6 +125,6 @@ class InputGroupButtonExtensionTest extends \PHPUnit_Framework_TestCase
      */
     public function testGetExtendedType()
     {
-        $this->assertEquals('text', $this->extension->getExtendedType());
+        $this->assertEquals('Symfony\Component\Form\Extension\Core\Type\TextType', $this->extension->getExtendedType());
     }
 }
